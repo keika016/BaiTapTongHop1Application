@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_menu1"
+        android:title="Há há 1" />
+    <item
+        android:id="@+id/item_menu2"
+        app:showAsAction="always"
+        android:icon="@drawable/pic1"
+        android:title="Há há 2" />
+    <item
+        android:id="@+id/item_menu3"
+        android:title="Há há 3">
+        <menu>
+            <item
+                android:id="@+id/item_menu3_1"
+                android:title="Há há 3_1" />
+            <item
+                android:id="@+id/item_menu3_2"
+                android:title="Há há 3_2" />
+        </menu>
+    </item>
+</menu>

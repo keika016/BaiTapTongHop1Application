@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.son_auto.baitaptonghop1application.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pic1"
+            android:text="@string/button_show" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pic1"
+            android:background="@color/colorAccent"
+            android:text="@string/textview1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pic1" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/popup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pop Up"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/context1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Context"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/customdialog_activity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog dạng Activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/alertdialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:textAllCaps="false" />
+</LinearLayout>
