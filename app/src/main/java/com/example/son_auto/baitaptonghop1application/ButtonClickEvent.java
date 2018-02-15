@@ -66,6 +66,7 @@ public class ButtonClickEvent implements View.OnClickListener {
             Intent i = new Intent(context, DialogActivity.class);
             context.startActivity(i);
         } else if (v.getId() == R.id.alertdialog1) {
+
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setTitle("Thông Báo");
             builder.setMessage("Có muốn thoát không");
@@ -83,6 +84,7 @@ public class ButtonClickEvent implements View.OnClickListener {
             });
             AlertDialog dialog = builder.create();
             dialog.show();
+
         }
     }
 

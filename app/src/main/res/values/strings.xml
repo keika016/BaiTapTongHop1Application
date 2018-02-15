@@ -2,7 +2,7 @@
     <string name="app_name">BaiTapTongHop1Application</string>
     <string name="button_show">Show</string>
     <string name="textview1">Hiển Thị TextView</string>
-    <string name="textview2">Hiển Thị TextView 2</string>
+    <string name="textview2">Hiển Thị TextView 2 haha</string>
     <string name="alertdialog_title">Thông báo</string>
     <string name="alertdialog_content">Có muốn thoát không</string>
     <string name="alertdialog_positive">Có</string>
